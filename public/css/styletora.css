@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* login css */
+
+.body-custom {
+    background-color: #FFCACA;
+}
+
+.title{
+    font-family: 'Lobster', cursive; 
+    font-weight: 300;
+    color: #dc8686;
+
+}
+
+.btn12{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.login-card {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.login-image {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+}
+
+
+/* end login css */
+
+
+/* Start signupcss */
+.title-signup {
+    color: #9A1663;
+    font-family: 'Lobster', cursive; 
+    font-weight: 300;
+}
+.btn-signup {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #9A1663;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+/* end signupcss */
+a {
+  text-decoration: none;
+  color: #9A1663;
+}
+
+.btn11 {
+    max-width: inherit;
+    max-height: inherit;
+    background-color: #FFCACA;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.helloo {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 0;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive; 
+    color: #9A1663;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+ 
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black ;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase ;
+}
+
+.nav-link:hover{
+    color: black;    
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #9A1663;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: #9A1663;
+    color: white;
+    border-radius: 600px;
+    font-weight: 700;
+}
+
+.main{
+     background: url(../gambarhtml/skincare4.jpg);
+     background-size:cover; 
+     height: 100vh;
+}
+
+.main h1{
+    font-size: 3.5rem;
+    font-weight: 700; 
+    color: #9A1663;
+    margin: auto;
+}
+
+.btn1{
+    height: 40px;
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #9A1663;
+    font-weight: 100px;
+    border-radius: 200px;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+}
+
+.carousel{
+    height: 60%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    background-color:#9A1663;
+    color: black;
+}
+
+.container{
+    width: 90%;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear; 
+}
+
+
+.contact-section {
+    padding-top: 5rem;
+    background-color: #efc2d3;
+  }
+  .contact-section .card {
+    border-bottom: 0.5rem solid #9A1663;
+  }
+  .contact-section .card h4, .contact-section .card .h4 {
+    font-size: 0.8rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    border-color: #9A1663;
+    border-width: 0.2rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    line-height: 5rem;
+    color: #9A1663;
+  }
+  .contact-section .social a:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .contact-section .social a:active {
+    color: rgb(9, 3, 3);
+  }
+
+  .team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 14.5rem;
+    height: 15rem;
+    border: 0.5rem solid #efc2d3;
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive; 
+    color: #9A1663;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;    
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #9A1663;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: #9A1663;
+    color: white;
+    border-radius: 600px;
+    font-weight: 700;
+}
+
+.halo{
+    font-family: 'Poppins', sans-serif;
+    color: #9A1661;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+#testimonial{
+    display: flex;
+    justify-content: auto;
+    align-items: auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: pink;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+} */
+
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+
+.testimonial-box{
+
+    box-shadow: 2px 2px 30px rgba(0,0,0,0,0.1);
+    background-color:rgb(252, 221, 225);
+    padding: 20px;
+    margin: 15px;
+}
+
+.img-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.img-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.name-profile{
+    display: flex;
+    flex-direction: column ;
+}
+.name-profile span{
+    color: rgb(184, 184, 153);
+    font-size: 0.8rem;
+}
+.review{
+    color: rgb(129, 35, 50);
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.product{
+    text-align: center ;
+
+}  
+.testimonial-box hover{
+    transition: all ease 0.3s;
+}
+@media(max-width: 1060px){
+    .testimonial-box{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 790px){
+    .testimonial-box{
+        width: 100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+@media screen and(min-width: 990px){
+    .container{
+        width: 80%;
+        margin-inline-end: auto;
+        margin-inline-start: auto;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear; 
+
+    }
+}
